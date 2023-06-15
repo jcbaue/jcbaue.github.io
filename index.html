@@ -21,7 +21,7 @@ h1 {color: green;
 <p>This is my first website. This is my edit in nano!!!!!!!!</p>
 <!---Image goes here-->
 
-<img src="scalloped.jpeg" alt="Picture of a hungry cat"</a>
+<img id="catpicture" src="scalloped.jpeg" alt="Picture of a hungry cat"</a>
 
 
 <!---Link goes here--->
@@ -29,7 +29,8 @@ h1 {color: green;
 
 
 <!---JS onClick event goes here.--->
-
+<button type="button"
+onclick="document.getElementById('catpicture').style.display='none'">Click to make the cat disappear</button>
 
 </body>
 </html>
